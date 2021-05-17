@@ -141,11 +141,11 @@ if __name__ == '__main__':
                     if abs(eval(i) - 10) != 0:
                         print('=====', i)
 
-                # log('res.csv', '\n'.join(t) + '\n')
-                # log('res_ture.csv', q + '\n')
+                log('res.csv', '\n'.join(t) + '\n')
+                log('res_ture.csv', q + '\n')
                 res.extend(t)
             else:
-                # log('res_false.csv', q + '\n')
+                log('res_false.csv', q + '\n')
                 fal.append(q)
                 # print(q)
 
